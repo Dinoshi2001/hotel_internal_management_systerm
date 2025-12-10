@@ -199,6 +199,11 @@ app.post("/api/slots/exit", async (req, res) => {
   }
 });
 
+const taxiAllocationRoutes = require("./routes/taxi-allocation");
+app.use("/api/taxi-allocation", taxiAllocationRoutes);
+
+
+
 // ================================
 // START SERVER
 // ================================

@@ -10,6 +10,7 @@ import GuestVehicleRegistration from "./pages/parking/GuestVehicleRegistration";
              import TaxiManagement from "./pages/taxi-booking/TaxiManagement";
              import TaxiRequest from "./pages/taxi-booking/TaxiRequest";
               import TaxiBooking from "./pages/taxi-booking/TaxiBooking";
+             
 
 
 
@@ -34,7 +35,8 @@ export default function App() {
 
 <Route path="/taxi/drivers" element={<DriverManagement />} />
 <Route path="/taxi/management" element={<TaxiManagement />} />
-<Route path="/taxi/booking" element={<TaxiBooking />} />
+
+<Route path="/taxi-booking" element={<TaxiBooking />} />
 
 
 
